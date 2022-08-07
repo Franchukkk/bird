@@ -126,6 +126,8 @@ header {
     text-decoration: none;
     transition: all 0.2s ease;
     margin-right: 31px;
+    border-top: 5px solid rgba(red, green, blue, 0);
+    border-bottom: 5px solid rgba(red, green, blue, 0);
 }
 
 .but1 a:hover {
@@ -146,6 +148,8 @@ header {
     background-color: #ffffff;
     padding: 27px 59px 26px 57px;
     transition: all 0.2s ease;
+    border-top: 5px solid rgba(red, green, blue, 0);
+    border-bottom: 5px solid rgba(red, green, blue, 0);
 }
 
 .but2 a:hover {
@@ -169,8 +173,201 @@ header {
     grid-template-rows: repeat(8, 5vw);
     grid-gap: 1.5rem;
     margin-left: 26%;
+}
+
+.hover_grid {
+    display: none;
+    height: 0px;
+}
+
+.gallery_1:hover .hover_grid,
+.gallery_1:hover .hover_grid {
+    display: flex;
+}
+
+.hover_grid a:hover {
+    transform: scale(1.01);
+}
+
+.hover_grid a:first-child::before {
+    content: url(../img/Ellipse\ 3.png);
+    position: relative;
+    left: 90px;
+    top: 250px;
+}
+
+.hover_grid a:last-child::before {
+    content: url(../img/Ellipse\ 3\ copy.png);
+    position: relative;
+    left: 95px;
+    top: 250px;
+}
+
+.hover_grid2 {
+    height: 0;
+    display: none;
+    justify-content: center;
+}
+
+.hover_grid2 a {
+    transition: 0.3s;
+}
+
+.hover_grid a {
+    transition: 0.3s;
+}
+
+.hover_grid2 a:hover {
+    transform: scale(1.01);
+}
+
+.gallery_2:hover .hover_grid2 {
+    display: flex;
+}
+
+.hover_grid2 .hov2:first-child::before {
+    content: url(../img/Ellipse\ 3.png);
+    position: relative;
+    right: 10px;
+    top: 150px;
+}
+
+.hover_grid2 .hov2:last-child::before {
+    content: url(../img/Ellipse\ 3\ copy.png);
+    position: relative;
+    right: 5px;
+    top: 150px;
+}
+
+.hover_grid3 .hov3:first-child::before {
+    content: url(../img/Ellipse\ 3.png);
+    position: relative;
+    top: 170px;
+    padding-right: 5px;
+
+}
+
+.hover_grid3 .hov3:last-child::before {
+    content: url(../img/Ellipse\ 3\ copy.png);
+    position: relative;
+    top: 170px;
+}
+
+.hover_grid3 {
+    height: 0;
+    display: none;
+    justify-content: center;
+}
+
+.gallery_3:hover .hover_grid3 {
+    display: flex;
+}
+
+.hover_grid3 a:hover {
+    transform: scale(1.01);
+}
+
+.hover_grid3 a {
+    transition: 0.3s;
+}
+
+.hover_grid4 .hov4:first-child::before {
+    content: url(../img/Ellipse\ 3.png);
+    position: relative;
+    right: 10px;
+    top: 80px;
+}
+
+.hover_grid4 .hov4:last-child::before {
+    content: url(../img/Ellipse\ 3\ copy.png);
+    position: relative;
+    right: 5px;
+    top: 80px;
+}
+
+.hover_grid4 {
+    height: 0;
+    display: none;
+    justify-content: center;
+}
+
+.gallery_4:hover .hover_grid4 {
+    display: flex;
+}
+
+.hover_grid4 a:hover {
+    transform: scale(1.01);
+}
+
+.hover_grid4 a {
+    transition: 0.3s;
+}
+
+.hover_grid5 .hov5:first-child::before {
+    content: url(../img/Ellipse\ 3.png);
+    position: relative;
+    right: 10px;
+    top: 80px;
+    left: 5px;
+    padding-right: 10px;
+}
+
+.hover_grid5 .hov5:last-child::before {
+    content: url(../img/Ellipse\ 3\ copy.png);
+    position: relative;
+    top: 80px;
+}
+
+.hover_grid5 {
+    height: 0;
+    display: none;
+    justify-content: center;
+}
+
+.gallery_5:hover .hover_grid5 {
+    display: flex;
+}
+
+.hover_grid5 a:hover {
+    transform: scale(1.01);
+}
+
+.hover_grid5 a {
+    transition: 0.3s;
+}
 
 
+
+.hover_grid6 .hov6:first-child::before {
+    content: url(../img/Ellipse\ 3.png);
+    position: relative;
+    right: 10px;
+    top: 80px;
+}
+
+.hover_grid6 .hov6:last-child::before {
+    content: url(../img/Ellipse\ 3\ copy.png);
+    position: relative;
+    right: 5px;
+    top: 80px;
+}
+
+.hover_grid6 {
+    height: 0;
+    display: none;
+    justify-content: center;
+}
+
+.gallery_6:hover .hover_grid6 {
+    display: flex;
+}
+
+.hover_grid6 a:hover {
+    transform: scale(1.01);
+}
+
+.hover_grid6 a {
+    transition: 0.3s;
 }
 
 .gallery__img {
@@ -178,6 +375,46 @@ header {
     height: 100%;
     object-fit: cover;
     display: block;
+}
+
+.slide1_card {
+    width: 70px;
+    height: 66px;
+    border: 2.51px solid #dddddd;
+    margin-top: 65px;
+    text-align: center;
+    margin-right: 30px;
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+.slide1_card:hover {
+    background-color: #dddddd;
+
+}
+
+.slide1_card img {
+    padding-top: 25px;
+}
+
+
+.slide2_card {
+    width: 70px;
+    height: 66px;
+    border: 2.51px solid #dddddd;
+    margin-top: 65px;
+    text-align: center;
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+.slide2_card:hover {
+    background-color: #dddddd;
+
+}
+
+.slide2_card img {
+    padding-top: 25px;
 }
 
 .gallery_1 {
@@ -243,7 +480,7 @@ header {
     text-align: center;
     text-decoration: none;
     transition: all 0.5s ease;
-    border-bottom: 0px solid #f7672c;
+    border-bottom: 5px solid rgba(red, green, blue, 0);
 }
 
 .button_album a:hover {
@@ -438,8 +675,8 @@ header {
 
 .cards {
     display: flex;
-    margin-left: 19%;
-    padding-top: 41px;
+    justify-content: center;
+    padding-top: 35px;
 }
 
 .part1 figure {
@@ -464,6 +701,10 @@ header {
     text-transform: uppercase;
     margin-left: 82px;
     padding-top: 18px;
+}
+
+.cards a{
+    text-decoration: none;
 }
 
 .zagolovok4 h2 {
@@ -763,6 +1004,14 @@ footer {
 
 footer a {
     padding-right: 4px;
+}
+
+footer a>img:hover{
+    transform: scale(1.1);
+}
+
+footer a>img{
+    transition: 0.5s;
 }
 
 .buttons_a_footer {
