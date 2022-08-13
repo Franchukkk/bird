@@ -70,7 +70,11 @@ nav a {
 
 header {
     height: 1200px;
+    width: 100%;
     background-image: url(../img/bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
 }
 
 .first_part h2 {
