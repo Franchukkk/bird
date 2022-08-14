@@ -696,6 +696,14 @@ header {
     padding: 50px 50px 10px 60px;
 }
 
+figure:hover{
+    transform: scale(1.06);
+}
+
+figure{
+    transition: 0.3s;
+}
+
 .cards p {
     font-size: 22px;
     line-height: 27px;
